@@ -84,7 +84,7 @@ void function() {
     char greeting[] = "Hello";
     char* p1 = greeting;                // 指针变量，指向字符数组 变量
     const char* p2 = greeting;          // 指针变量，指向字符数组 常量
-    char* const p3 = greeting;          // 常指针，指向字符数组 变量
+    char* const p3 = greeting;          // 指针常量，指向字符数组 变量
     const char* const p4 = greeting;    // 常指针，指向字符数组 常量
 }
 
